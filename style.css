@@ -1,5 +1,68 @@
-
-body{
-background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00AAE6;
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00AAE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 100%;
+}
+
+#div_social_media_icons {
+    height: 137px;
+    width: 956px;   
+    background: rgba(242, 133, 0, 0.3);
+    border-radius: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateY(50%);
+}
+
+#div_social_media_icons img {
+    width: 84px;
+    height: 84px;
+}
+
+#div_selection_progress_buttons{
+    width: 1196px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 100px 100px 0px 0px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#div_selection_progress_buttons button{
+    padding: 5px 100px;
+}
+
+
+#div_selection_progress_buttons button:hover{
+    cursor: pointer;
+}
+
+#button_subscription_form{
+    background: #F28500;
+    border-radius: 32px;
+}
+
+#button_annoucement {
+    background: rgba(0, 170, 230, 0.1);
+    border: 3px solid #008DBF;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+#logo-fonte {
+    height: 30vh;
+}
