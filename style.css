@@ -15,8 +15,8 @@ body {
 }
 
 #div_social_media_icons {
-    height: 137px;
-    width: 956px;   
+    width: 80vw;   
+    padding: 5px;
     background: rgba(242, 133, 0, 0.3);
     border-radius: 64px;
     display: flex;
@@ -26,14 +26,19 @@ body {
 }
 
 #div_social_media_icons img {
-    width: 84px;
-    height: 84px;
+    width: 8vw;
+    height: 8vw;
+}
+
+#div_social_media_icons #blog-icon {
+    width: 6vw;
+    height: 6vw;
 }
 
 #div_selection_progress_buttons{
-    width: 1196px;
+    width: 90vw;
     background: rgba(255, 255, 255, 0.8);
-    border-radius: 100px 100px 0px 0px;
+    border-radius: 10vw 10vw 0px 0px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -51,9 +56,17 @@ body {
     cursor: pointer;
 }
 
+#div_selection_progress_buttons button:hover{
+    cursor: pointer;
+}
+
 #button_subscription_form{
     background: #F28500;
     border-radius: 32px;
+}
+
+#button_subscription_form:active{
+    background: #8a4d03;
 }
 
 #button_annoucement {
@@ -63,6 +76,27 @@ body {
     border-radius: 32px;
 }
 
+#button_annoucement:active {
+    background: rgb(1, 47, 63);
+}
+
+
 #logo-fonte {
     height: 30vh;
+}
+
+/* Smatphone screens */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) {
+    #div_selection_progress_buttons button{
+        padding: 15px 5px;
+    }
+}
+/* Galaxy-Fold */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    #div_selection_progress_buttons button{
+        padding: 5px;
+        margin: 5px;
+    }
 }
