@@ -38,7 +38,7 @@ div#social_media img {
     height: 8vw;
 }
 
-div#selection_progress {
+div#selection_process {
     width: 90vw;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 6vw 6vw 0px 0px;
@@ -50,7 +50,7 @@ div#selection_progress {
     gap: 30px;
 }
 
-div#selection_progress button{
+div#selection_process button{
     padding: 5px 100px;
 }
 
@@ -83,7 +83,7 @@ img#instagram-icon {
 
 /* Events */
 
-div#selection_progress button:hover{
+div#selection_process button:hover{
     cursor: pointer;
 }
 
@@ -97,12 +97,12 @@ button#annoucement:active {
 
 /* Smatphone screens */
 @media only screen and (min-device-width : 0px) and (max-device-width : 768px) {
-    div#selection_progress button{
+    div#selection_process button{
         padding: 5px 10px;
         margin: 10px;
     }
 
-    div#selection_progress{
+    div#selection_process{
         border-radius: 10vw 10vw 0px 0px;
     }
 }
