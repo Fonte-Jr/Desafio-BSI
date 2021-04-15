@@ -12,5 +12,8 @@ Esse repositório tem como objetivo salvar os arquivos codificados com base no [
 ## Como executar
 Abra o arquivo .html no browser para visualizar a página.
 
+## Preview
+[Clique aqui](https://fonte-jr.github.io/Desafio-BSI/) para acessar a página pelo browser.
+
 ## :balance_scale: Licença
 [Licença MIT](https://github.com/Fonte-Jr/Desafio-BSI/blob/main/LICENSE)
