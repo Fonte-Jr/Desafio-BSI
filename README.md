@@ -20,5 +20,8 @@ Abra o arquivo index.html em um browser para visualizar a página.
 ## Preview
 [Clique aqui](https://fonte-jr.github.io/Desafio-BSI/) para acessar a página em seu navegador.
 
+## Entrega
+Os arquivos compactados para a entrega final se encontram na release [Entrega Final v1.0](https://github.com/Fonte-Jr/Desafio-BSI/releases/tag/1.0) onde os arquivos podem ser baixados de forma compactada.
+
 ## :balance_scale: Licença
 [Licença MIT](https://github.com/Fonte-Jr/Desafio-BSI/blob/main/LICENSE)
