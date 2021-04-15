@@ -1,3 +1,5 @@
+/* General */
+
 * {
     border: none;
     margin: 0;
@@ -14,7 +16,13 @@ body {
     height: 100%;
 }
 
-#div_social_media_icons {
+button:focus{
+    outline: none;
+}
+
+/* Common */
+
+div#social_media {
     width: 80vw;   
     padding: 5px;
     background: rgba(242, 133, 0, 0.3);
@@ -25,20 +33,15 @@ body {
     transform: translateY(50%);
 }
 
-#div_social_media_icons img {
+div#social_media img {
     width: 8vw;
     height: 8vw;
 }
 
-#div_social_media_icons #blog-icon {
-    width: 6vw;
-    height: 6vw;
-}
-
-#div_selection_progress_buttons{
+div#selection_progress {
     width: 90vw;
     background: rgba(255, 255, 255, 0.8);
-    border-radius: 10vw 10vw 0px 0px;
+    border-radius: 6vw 6vw 0px 0px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -47,60 +50,64 @@ body {
     gap: 30px;
 }
 
-#div_selection_progress_buttons button{
+div#selection_progress button{
     padding: 5px 100px;
 }
 
-
-#div_selection_progress_buttons button:hover{
-    cursor: pointer;
-}
-
-#div_selection_progress_buttons button:hover{
-    cursor: pointer;
-}
-
-#button_subscription_form{
-    background: #F28500;
-    border-radius: 32px;
-}
-
-#button_subscription_form:active{
-    background: #8a4d03;
-}
-
-#button_annoucement {
+button#annoucement {
     background: rgba(0, 170, 230, 0.1);
     border: 3px solid #008DBF;
     box-sizing: border-box;
     border-radius: 32px;
 }
 
-#button_annoucement:active {
-    background: rgb(1, 47, 63);
+button#subscription_form{
+    background: #F28500;
+    border-radius: 32px;
 }
 
+/* Specific */
 
-#logo-fonte {
+img#logo-fonte {
     height: 30vh;
 }
 
-/* Smatphone screens */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 768px) {
-    #div_selection_progress_buttons button{
-        padding: 15px 5px;
-    }
-}
-/* Galaxy-Fold */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    #div_selection_progress_buttons button{
-        padding: 5px;
-        margin: 5px;
-    }
+img#blog-icon {
+    width: 6vw;
+    height: 6vw;
 }
 
-button:focus{
-    outline: none;
+
+img#instagram-icon {
+    width: 10vw;
+    height: 10vw;
+}
+
+/* Events */
+
+div#selection_progress button:hover{
+    cursor: pointer;
+}
+
+div#selection_progress button:hover{
+    cursor: pointer;
+}
+
+button#subscription_form:active {
+    background: #8a4d03;
+}
+
+button#annoucement:active {
+    background: rgb(1, 47, 63);
+}
+
+/* Smatphone screens */
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    div#selection_progress button{
+        padding: 15px 5px;
+    }
+
+    div#selection_progress{
+        border-radius: 10vw 10vw 0px 0px;
+    }
 }
