@@ -15,7 +15,7 @@ Para editar esse código localmente, será necessário:
 > Recomendado [Visual Studio Code](https://code.visualstudio.com)
 
 ## Como executar
-Abra o arquivo index.html emum browser para visualizar a página.
+Abra o arquivo index.html em um browser para visualizar a página.
 
 ## Preview
 [Clique aqui](https://fonte-jr.github.io/Desafio-BSI/) para acessar a página em seu navegador.
