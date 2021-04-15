@@ -87,10 +87,6 @@ div#selection_progress button:hover{
     cursor: pointer;
 }
 
-div#selection_progress button:hover{
-    cursor: pointer;
-}
-
 button#subscription_form:active {
     background: #8a4d03;
 }
